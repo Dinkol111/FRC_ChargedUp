@@ -4,15 +4,11 @@
 
 package frc.robot.subsystems;
 
-import edu.wpi.first.math.controller.PIDController;
 import edu.wpi.first.wpilibj2.command.SubsystemBase;
 
-public class ShoulderSubsystem extends SubsystemBase {
-  private final PIDController pidControl;
-  /** Creates a new ShoulderSubsystem. */
-  public ShoulderSubsystem() {
-  pidControl = new PIDController(kp, ki, kd);
-  }
+public class LoggingSubsystem extends SubsystemBase {
+  /** Creates a new LoggingSubsystem. */
+  public LoggingSubsystem() {}
 
   @Override
   public void periodic() {
